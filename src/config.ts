@@ -29,7 +29,7 @@ export const siteConfig: SiteConfig = {
 
 	themeColor: {
 		hue: 345, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		fixed: false, // 对访问者隐藏主题色选择器
+		fixed: true, // 对访问者隐藏主题色选择器
 	},
 	translate: {
 		enable: true, // 启用翻译功能
@@ -156,7 +156,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
+		LinkPreset.About,
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
@@ -187,7 +187,7 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "我的",
 			url: "/content/",
-			icon: "material-symbols:person",
+			icon: "material-symbols:book",
 			children: [
 				LinkPreset.Diary,
 				{
@@ -215,7 +215,7 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "其它",
 			url: "/content/",
-			icon: "material-symbols:info",
+			icon: "material-symbols:explore",
 			children: [LinkPreset.Friends],
 		},
 	],
