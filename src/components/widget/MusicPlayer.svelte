@@ -68,10 +68,10 @@ let volumeBar: HTMLElement;
 const localPlaylist = [
 	{
 		id: 1,
-		title: "ひとり上手",
-		artist: "Kaya",
-		cover: "assets/music/cover/hitori.jpg",
-		url: "assets/music/url/hitori.mp3",
+		title: "再飞行",
+		artist: "",
+		cover: "assets/music/cover/zfx.jpg",
+		url: "assets/music/url/zfx.mp3",
 		duration: 240,
 	},
 	{
